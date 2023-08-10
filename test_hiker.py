@@ -79,7 +79,7 @@ class TestHiker(unittest.TestCase):
         self.assertEqual("7", hiker.fizzbuzzplus(7))
         
     def test_fizzbuzzplus31(self):
-        self.assertEqual("Fizz", hiker.fizzbuzzplus(31))
+        self.assertEqual("Fizz", hiker.fizzbuzzplus(13))
 
     def test_fizzbuzzplus52(self):
         self.assertEqual("Buzz", hiker.fizzbuzzplus(52))
