@@ -29,16 +29,6 @@ def fizz(num):
     return str(num)
 
 # 5
-def buzz(num):
-    result = num % 3
-    if result == 0:
-        return "Fizz"
-    result = num % 5
-    if result == 0:
-        return "Buzz"
-    return str(num)
-
-# 6
 def fizzbuzz(num):
     result = num % 15
     if result == 0:
@@ -51,7 +41,7 @@ def fizzbuzz(num):
         return "Buzz"
     return str(num)
 
-# 7
+# 6
 def fizzbuzz_with_numcheck(num):
     if isinstance(num, int) == False:
         raise ValueError
@@ -68,7 +58,7 @@ def fizzbuzz_with_numcheck(num):
         return "Buzz"
     return str(num)
 
-# 8
+# 7
 def fizzbuzzplus(num):
     result = ''
     if num % 3 == 0 or '3' in str(num):

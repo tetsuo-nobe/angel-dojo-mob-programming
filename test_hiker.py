@@ -21,17 +21,8 @@ class TestHiker(unittest.TestCase):
 
     def test_fizz4(self):
         self.assertEqual("4", hiker.fizz(4))
+
     # 5
-    def test_buzz3(self):
-        self.assertEqual("Fizz", hiker.buzz(3))
-
-    def test_buzz5(self):
-        self.assertEqual("Buzz", hiker.buzz(5))
-
-    def test_buzz7(self):
-        self.assertEqual("7", hiker.buzz(7))
-
-    # 6
     def test_fizzbuzz3(self):
         self.assertEqual("Fizz", hiker.fizzbuzz(3))
 
@@ -44,7 +35,7 @@ class TestHiker(unittest.TestCase):
     def test_fizzbuzz7(self):
         self.assertEqual("7", hiker.fizzbuzz(7))
 
-    #7
+    # 6
     def test_fizzbuzz_not_int(self):
         with self.assertRaises(ValueError):
             hiker.fizzbuzz_with_numcheck("abc")
@@ -65,7 +56,7 @@ class TestHiker(unittest.TestCase):
     def test_fizzbuzz_numcheck7(self):
         self.assertEqual("7", hiker.fizzbuzz_with_numcheck(7))
 
-    # 8
+    # 7
     def test_fizzbuzzplus3(self):
         self.assertEqual("Fizz", hiker.fizzbuzzplus(3))
 
